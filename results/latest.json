@@ -1,10 +1,10 @@
 {
-  "request_id": "first-run",
-  "generated_utc": "2026-10-24T19:08:44Z",
+  "request_id": "40124127210",
+  "generated_utc": "2026-10-24T19:11:23Z",
   "asked": {
     "nba": 1,
     "nfl": 1,
-    "minutes": null,
+    "minutes": 45,
     "days": 7
   },
   "picks": [
@@ -22,14 +22,40 @@
       "direct_link": true
     },
     {
-      "league": "NFL",
-      "matchup": "Buffalo Bills @ Las Vegas Raiders",
-      "date": "Sun Oct 18",
+      "league": "NBA",
+      "matchup": "Indiana Pacers @ New Orleans Pelicans",
+      "date": "Wed Oct 21",
+      "rating": "★★★★☆",
+      "why": [
+        "your team: Pacers",
+        "Tyrese Haliburton played"
+      ],
+      "url": "https://www.youtube.com/watch?v=dqVSIkG1s0Q",
+      "direct_link": true
+    },
+    {
+      "league": "NBA",
+      "matchup": "Oklahoma City Thunder @ San Antonio Spurs",
+      "date": "Tue Oct 20",
       "rating": "★★★☆☆",
       "why": [
-        "your team: Bills"
+        "your teams: Thunder, Spurs",
+        "Shai Gilgeous-Alexander played",
+        "Victor Wembanyama played"
       ],
-      "url": "https://www.youtube.com/watch?v=JCwv4Mrkdd8",
+      "url": "https://www.youtube.com/watch?v=PuRFyx_FSbs",
+      "direct_link": true
+    },
+    {
+      "league": "NBA",
+      "matchup": "Houston Rockets @ San Antonio Spurs",
+      "date": "Fri Oct 23",
+      "rating": "★★★☆☆",
+      "why": [
+        "your team: Spurs",
+        "Victor Wembanyama played"
+      ],
+      "url": "https://www.youtube.com/watch?v=ihLZ3Ti4wqM",
       "direct_link": true
     }
   ]
