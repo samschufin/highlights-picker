@@ -1,0 +1,46 @@
+# Highlights Picker — your preferences
+# Edit freely, or just tell Claude "add the Celtics" / "drop the Panthers".
+# Team names = the nickname (Lakers, 49ers, 76ers...). Star names must match ESPN's spelling.
+
+# Game dates are shown in this time zone (GitHub's servers run on UTC)
+timezone = "America/Denver"
+
+[nba]
+# weight: how much you care (1.0 = favorite, 0.5 = mildly interesting)
+# stars: if NONE of a team's listed stars played, that team's appeal mostly disappears
+teams = [
+  { name = "Pacers",       weight = 1.0, stars = ["Tyrese Haliburton"] },
+  { name = "76ers",        weight = 1.0, stars = ["LeBron James"] },
+  { name = "Heat",         weight = 1.0, stars = ["Giannis Antetokounmpo"] },
+  { name = "Timberwolves", weight = 1.0, stars = ["LaMelo Ball"] },
+  { name = "Lakers",       weight = 1.0, stars = ["Luka Doncic"] },
+  { name = "Spurs",        weight = 1.0, stars = ["Victor Wembanyama"] },
+  { name = "Thunder",      weight = 1.0, stars = ["Shai Gilgeous-Alexander"] },
+]
+# Rough length of an official NBA game-highlight video, in minutes
+video_minutes = 10
+
+[nfl]
+teams = [
+  { name = "Bills",    weight = 1.0 },
+  { name = "49ers",    weight = 1.0 },
+  { name = "Panthers", weight = 1.0 },
+  { name = "Jaguars",  weight = 1.0 },
+  { name = "Chiefs",   weight = 1.0 },
+]
+video_minutes = 15
+
+[scoring]
+days_back = 7
+# How the final pick score is blended (should add to ~1.0)
+w_interest = 0.45   # your teams / stars
+w_strength = 0.15   # how good both teams are (contenders > bad teams)
+w_drama    = 0.40   # closeness, lead changes, late-game tension, overtime
+# Teams NOT on your list still get this much appeal (0 = only ever show your teams)
+other_team_weight = 0.15
+# Quietly boost games with a big individual performance (40-pt game, triple-double).
+# The boost is never labeled, so it can't tip you off.
+boost_big_performances = true
+# Optional: force a team's strength (0-1) when early-season records are too thin to judge.
+# e.g. strength_override = { Thunder = 0.95, Chiefs = 0.85 }
+strength_override = {}

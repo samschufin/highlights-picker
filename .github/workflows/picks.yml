@@ -1,0 +1,55 @@
+name: Highlight picks
+
+on:
+  # Claude (or you) can start a run with settings...
+  workflow_dispatch:
+    inputs:
+      nba: { description: "NBA games", default: "1" }
+      nfl: { description: "NFL games", default: "1" }
+      minutes: { description: "Fill this many minutes instead (optional)", default: "" }
+      days: { description: "Days back (optional)", default: "" }
+  # ...or just save a new request.json, which starts a run automatically.
+  push:
+    paths: [request.json]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: picks
+  cancel-in-progress: false
+
+jobs:
+  pick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+
+      - name: Build request
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          python - <<'EOF'
+          import json, os
+          req = {k: os.environ.get(k.upper()) or None for k in ("nba", "nfl", "minutes", "days")}
+          req["id"] = os.environ["GITHUB_RUN_ID"]
+          json.dump(req, open("request.json", "w"))
+          EOF
+        env:
+          NBA: ${{ inputs.nba }}
+          NFL: ${{ inputs.nfl }}
+          MINUTES: ${{ inputs.minutes }}
+          DAYS: ${{ inputs.days }}
+
+      - name: Pick games (spoiler-safe output only)
+        run: python picks.py --request request.json --out results/latest.json --html > /dev/null
+
+      - name: Save results
+        run: |
+          mv picks.html results/picks.html
+          git config user.name "highlights-bot"
+          git config user.email "highlights-bot@users.noreply.github.com"
+          git add results/
+          git diff --cached --quiet || git commit -m "picks $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -q && git push -q
