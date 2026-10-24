@@ -1,0 +1,36 @@
+{
+  "request_id": "first-run",
+  "generated_utc": "2026-10-24T19:08:44Z",
+  "asked": {
+    "nba": 1,
+    "nfl": 1,
+    "minutes": null,
+    "days": 7
+  },
+  "picks": [
+    {
+      "league": "NBA",
+      "matchup": "Minnesota Timberwolves @ Miami Heat",
+      "date": "Wed Oct 21",
+      "rating": "★★★★☆",
+      "why": [
+        "your teams: Timberwolves, Heat",
+        "LaMelo Ball played",
+        "Giannis Antetokounmpo played"
+      ],
+      "url": "https://www.youtube.com/watch?v=pLXx9k6RYMY",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Buffalo Bills @ Las Vegas Raiders",
+      "date": "Sun Oct 18",
+      "rating": "★★★☆☆",
+      "why": [
+        "your team: Bills"
+      ],
+      "url": "https://www.youtube.com/watch?v=JCwv4Mrkdd8",
+      "direct_link": true
+    }
+  ]
+}
