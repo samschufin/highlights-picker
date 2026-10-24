@@ -34,7 +34,7 @@ jobs:
           import json, os
           req = {k: os.environ.get(k.upper()) or None for k in ("nba", "nfl", "minutes", "days")}
           req["id"] = os.environ["GITHUB_RUN_ID"]
-          json.dump(req, open("request.json", "w"))
+          json.dump(req, open(os.environ["RUNNER_TEMP"] + "/request.json", "w"))
           EOF
         env:
           NBA: ${{ inputs.nba }}
@@ -43,7 +43,10 @@ jobs:
           DAYS: ${{ inputs.days }}
 
       - name: Pick games (spoiler-safe output only)
-        run: python picks.py --request request.json --out results/latest.json --html > /dev/null
+        run: |
+          REQ=request.json
+          [ -f "$RUNNER_TEMP/request.json" ] && REQ="$RUNNER_TEMP/request.json"
+          python picks.py --request "$REQ" --out results/latest.json --html > /dev/null
 
       - name: Save results
         run: |
@@ -52,4 +55,4 @@ jobs:
           git config user.email "highlights-bot@users.noreply.github.com"
           git add results/
           git diff --cached --quiet || git commit -m "picks $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase -q && git push -q
+          git pull --rebase --autostash -q && git push -q
