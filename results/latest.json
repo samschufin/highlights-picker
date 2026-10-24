@@ -1,10 +1,10 @@
 {
-  "request_id": "40124127210",
-  "generated_utc": "2026-10-24T19:11:23Z",
+  "request_id": "40125938809",
+  "generated_utc": "2026-10-24T19:35:08Z",
   "asked": {
     "nba": 1,
     "nfl": 1,
-    "minutes": 45,
+    "minutes": 30,
     "days": 7
   },
   "picks": [
@@ -44,18 +44,6 @@
         "Victor Wembanyama played"
       ],
       "url": "https://www.youtube.com/watch?v=PuRFyx_FSbs",
-      "direct_link": true
-    },
-    {
-      "league": "NBA",
-      "matchup": "Houston Rockets @ San Antonio Spurs",
-      "date": "Fri Oct 23",
-      "rating": "★★★☆☆",
-      "why": [
-        "your team: Spurs",
-        "Victor Wembanyama played"
-      ],
-      "url": "https://www.youtube.com/watch?v=ihLZ3Ti4wqM",
       "direct_link": true
     }
   ]
