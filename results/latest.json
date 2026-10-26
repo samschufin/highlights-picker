@@ -1,11 +1,11 @@
 {
-  "request_id": "40259698042",
-  "generated_utc": "2026-10-26T02:33:50Z",
+  "request_id": "40259971536",
+  "generated_utc": "2026-10-26T02:37:12Z",
   "asked": {
     "nba": 0,
-    "nfl": 1,
-    "minutes": 30,
-    "days": 7
+    "nfl": 16,
+    "minutes": null,
+    "days": 1
   },
   "picks": [
     {
@@ -21,13 +21,94 @@
     },
     {
       "league": "NFL",
-      "matchup": "Washington Commanders @ San Francisco 49ers",
-      "date": "Mon Oct 19",
+      "matchup": "Green Bay Packers @ Detroit Lions",
+      "date": "Sun Oct 25",
       "rating": "★★★☆☆",
+      "why": [],
+      "url": "https://www.youtube.com/watch?v=r3NBIs-ABLA",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "New York Giants @ Houston Texans",
+      "date": "Sun Oct 25",
+      "rating": "★★☆☆☆",
+      "why": [],
+      "url": "https://www.youtube.com/watch?v=oy5jJycVydI",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Cleveland Browns @ Tennessee Titans",
+      "date": "Sun Oct 25",
+      "rating": "★★☆☆☆",
+      "why": [],
+      "url": "https://www.youtube.com/watch?v=_4OJ6iu8K1I",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Indianapolis Colts @ Minnesota Vikings",
+      "date": "Sun Oct 25",
+      "rating": "★★☆☆☆",
+      "why": [],
+      "url": "https://www.youtube.com/watch?v=4PyjDuD7-4I",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Miami Dolphins @ New York Jets",
+      "date": "Sun Oct 25",
+      "rating": "★★☆☆☆",
+      "why": [],
+      "url": "https://www.youtube.com/watch?v=iXW84N92-vE",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Pittsburgh Steelers @ New Orleans Saints",
+      "date": "Sun Oct 25",
+      "rating": "★★☆☆☆",
+      "why": [],
+      "url": "https://www.youtube.com/watch?v=wz6HQi6XPDc",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Tampa Bay Buccaneers @ Carolina Panthers",
+      "date": "Sun Oct 25",
+      "rating": "★★☆☆☆",
       "why": [
-        "your team: 49ers"
+        "your team: Panthers"
       ],
-      "url": "https://www.youtube.com/watch?v=EM4Bq_uqLQ0",
+      "url": "https://www.youtube.com/watch?v=KHLfLsKZlRg",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Cincinnati Bengals @ Baltimore Ravens",
+      "date": "Sun Oct 25",
+      "rating": "★☆☆☆☆",
+      "why": [],
+      "url": "https://www.youtube.com/watch?v=LJRRMbR4BrE",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Denver Broncos @ Arizona Cardinals",
+      "date": "Sun Oct 25",
+      "rating": "★☆☆☆☆",
+      "why": [],
+      "url": "https://www.youtube.com/watch?v=ELahNguVTLM",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Los Angeles Rams @ Las Vegas Raiders",
+      "date": "Sun Oct 25",
+      "rating": "★☆☆☆☆",
+      "why": [],
+      "url": "https://www.youtube.com/watch?v=RmNwpxi5X78",
       "direct_link": true
     }
   ]
