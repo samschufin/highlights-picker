@@ -1,49 +1,33 @@
 {
-  "request_id": "40125938809",
-  "generated_utc": "2026-10-24T19:35:08Z",
+  "request_id": "40259698042",
+  "generated_utc": "2026-10-26T02:33:50Z",
   "asked": {
-    "nba": 1,
+    "nba": 0,
     "nfl": 1,
     "minutes": 30,
     "days": 7
   },
   "picks": [
     {
-      "league": "NBA",
-      "matchup": "Minnesota Timberwolves @ Miami Heat",
-      "date": "Wed Oct 21",
-      "rating": "★★★★☆",
-      "why": [
-        "your teams: Timberwolves, Heat",
-        "LaMelo Ball played",
-        "Giannis Antetokounmpo played"
-      ],
-      "url": "https://www.youtube.com/watch?v=pLXx9k6RYMY",
-      "direct_link": true
-    },
-    {
-      "league": "NBA",
-      "matchup": "Indiana Pacers @ New Orleans Pelicans",
-      "date": "Wed Oct 21",
-      "rating": "★★★★☆",
-      "why": [
-        "your team: Pacers",
-        "Tyrese Haliburton played"
-      ],
-      "url": "https://www.youtube.com/watch?v=dqVSIkG1s0Q",
-      "direct_link": true
-    },
-    {
-      "league": "NBA",
-      "matchup": "Oklahoma City Thunder @ San Antonio Spurs",
-      "date": "Tue Oct 20",
+      "league": "NFL",
+      "matchup": "San Francisco 49ers @ Atlanta Falcons",
+      "date": "Sun Oct 25",
       "rating": "★★★☆☆",
       "why": [
-        "your teams: Thunder, Spurs",
-        "Shai Gilgeous-Alexander played",
-        "Victor Wembanyama played"
+        "your team: 49ers"
       ],
-      "url": "https://www.youtube.com/watch?v=PuRFyx_FSbs",
+      "url": "https://www.youtube.com/watch?v=6PDASNSZQFI",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Washington Commanders @ San Francisco 49ers",
+      "date": "Mon Oct 19",
+      "rating": "★★★☆☆",
+      "why": [
+        "your team: 49ers"
+      ],
+      "url": "https://www.youtube.com/watch?v=EM4Bq_uqLQ0",
       "direct_link": true
     }
   ]
