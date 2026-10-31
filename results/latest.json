@@ -1,13 +1,109 @@
 {
-  "request_id": "40259971536",
-  "generated_utc": "2026-10-26T02:37:12Z",
+  "request_id": "41148749931",
+  "generated_utc": "2026-10-31T00:11:37Z",
   "asked": {
-    "nba": 0,
-    "nfl": 16,
+    "nba": 8,
+    "nfl": 6,
     "minutes": null,
-    "days": 1
+    "days": 7
   },
   "picks": [
+    {
+      "league": "NBA",
+      "matchup": "Philadelphia 76ers @ Indiana Pacers",
+      "date": "Wed Oct 28",
+      "rating": "★★★★☆",
+      "why": [
+        "your teams: 76ers, Pacers",
+        "LeBron James played"
+      ],
+      "url": "https://www.youtube.com/watch?v=67g10QAeRCM",
+      "direct_link": true
+    },
+    {
+      "league": "NBA",
+      "matchup": "Minnesota Timberwolves @ Cleveland Cavaliers",
+      "date": "Mon Oct 26",
+      "rating": "★★★★☆",
+      "why": [
+        "your team: Timberwolves",
+        "LaMelo Ball played"
+      ],
+      "url": "https://www.youtube.com/watch?v=8q9lu3T5twU",
+      "direct_link": true
+    },
+    {
+      "league": "NBA",
+      "matchup": "Portland Trail Blazers @ Los Angeles Lakers",
+      "date": "Tue Oct 27",
+      "rating": "★★★★☆",
+      "why": [
+        "your team: Lakers",
+        "Luka Doncic played"
+      ],
+      "url": "https://www.youtube.com/watch?v=X5EXmi9Ihkc",
+      "direct_link": true
+    },
+    {
+      "league": "NBA",
+      "matchup": "San Antonio Spurs @ Utah Jazz",
+      "date": "Wed Oct 28",
+      "rating": "★★★★☆",
+      "why": [
+        "your team: Spurs",
+        "Victor Wembanyama played"
+      ],
+      "url": "https://www.youtube.com/watch?v=8j-l0KIwZYc",
+      "direct_link": true
+    },
+    {
+      "league": "NBA",
+      "matchup": "Dallas Mavericks @ Miami Heat",
+      "date": "Mon Oct 26",
+      "rating": "★★★☆☆",
+      "why": [
+        "your team: Heat",
+        "Giannis Antetokounmpo played"
+      ],
+      "url": "https://www.youtube.com/watch?v=vDxNf1bBs6o",
+      "direct_link": true
+    },
+    {
+      "league": "NBA",
+      "matchup": "Los Angeles Lakers @ Utah Jazz",
+      "date": "Sun Oct 25",
+      "rating": "★★★☆☆",
+      "why": [
+        "your team: Lakers",
+        "Luka Doncic played"
+      ],
+      "url": "https://www.youtube.com/watch?v=k9zo4pfctTg",
+      "direct_link": true
+    },
+    {
+      "league": "NBA",
+      "matchup": "Golden State Warriors @ Minnesota Timberwolves",
+      "date": "Wed Oct 28",
+      "rating": "★★★☆☆",
+      "why": [
+        "your team: Timberwolves",
+        "LaMelo Ball played"
+      ],
+      "url": "https://www.youtube.com/watch?v=CnDNAnTuKz0",
+      "direct_link": true
+    },
+    {
+      "league": "NBA",
+      "matchup": "Miami Heat @ Charlotte Hornets",
+      "date": "Sat Oct 24",
+      "rating": "★★★☆☆",
+      "why": [
+        "your team: Heat",
+        "Giannis Antetokounmpo played"
+      ],
+      "url": "https://www.youtube.com/watch?v=DPgrjyciioY",
+      "direct_link": true
+    },
     {
       "league": "NFL",
       "matchup": "San Francisco 49ers @ Atlanta Falcons",
@@ -21,11 +117,33 @@
     },
     {
       "league": "NFL",
+      "matchup": "Carolina Panthers @ Green Bay Packers",
+      "date": "Thu Oct 29",
+      "rating": "★★★☆☆",
+      "why": [
+        "your team: Panthers"
+      ],
+      "url": "https://www.youtube.com/watch?v=dVxy7tMDVJE",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
       "matchup": "Green Bay Packers @ Detroit Lions",
       "date": "Sun Oct 25",
       "rating": "★★★☆☆",
       "why": [],
       "url": "https://www.youtube.com/watch?v=r3NBIs-ABLA",
+      "direct_link": true
+    },
+    {
+      "league": "NFL",
+      "matchup": "Kansas City Chiefs @ Seattle Seahawks",
+      "date": "Sun Oct 25",
+      "rating": "★★☆☆☆",
+      "why": [
+        "your team: Chiefs"
+      ],
+      "url": "https://www.youtube.com/watch?v=dIfN83Krivs",
       "direct_link": true
     },
     {
@@ -44,71 +162,6 @@
       "rating": "★★☆☆☆",
       "why": [],
       "url": "https://www.youtube.com/watch?v=_4OJ6iu8K1I",
-      "direct_link": true
-    },
-    {
-      "league": "NFL",
-      "matchup": "Indianapolis Colts @ Minnesota Vikings",
-      "date": "Sun Oct 25",
-      "rating": "★★☆☆☆",
-      "why": [],
-      "url": "https://www.youtube.com/watch?v=4PyjDuD7-4I",
-      "direct_link": true
-    },
-    {
-      "league": "NFL",
-      "matchup": "Miami Dolphins @ New York Jets",
-      "date": "Sun Oct 25",
-      "rating": "★★☆☆☆",
-      "why": [],
-      "url": "https://www.youtube.com/watch?v=iXW84N92-vE",
-      "direct_link": true
-    },
-    {
-      "league": "NFL",
-      "matchup": "Pittsburgh Steelers @ New Orleans Saints",
-      "date": "Sun Oct 25",
-      "rating": "★★☆☆☆",
-      "why": [],
-      "url": "https://www.youtube.com/watch?v=wz6HQi6XPDc",
-      "direct_link": true
-    },
-    {
-      "league": "NFL",
-      "matchup": "Tampa Bay Buccaneers @ Carolina Panthers",
-      "date": "Sun Oct 25",
-      "rating": "★★☆☆☆",
-      "why": [
-        "your team: Panthers"
-      ],
-      "url": "https://www.youtube.com/watch?v=KHLfLsKZlRg",
-      "direct_link": true
-    },
-    {
-      "league": "NFL",
-      "matchup": "Cincinnati Bengals @ Baltimore Ravens",
-      "date": "Sun Oct 25",
-      "rating": "★☆☆☆☆",
-      "why": [],
-      "url": "https://www.youtube.com/watch?v=LJRRMbR4BrE",
-      "direct_link": true
-    },
-    {
-      "league": "NFL",
-      "matchup": "Denver Broncos @ Arizona Cardinals",
-      "date": "Sun Oct 25",
-      "rating": "★☆☆☆☆",
-      "why": [],
-      "url": "https://www.youtube.com/watch?v=ELahNguVTLM",
-      "direct_link": true
-    },
-    {
-      "league": "NFL",
-      "matchup": "Los Angeles Rams @ Las Vegas Raiders",
-      "date": "Sun Oct 25",
-      "rating": "★☆☆☆☆",
-      "why": [],
-      "url": "https://www.youtube.com/watch?v=RmNwpxi5X78",
       "direct_link": true
     }
   ]
